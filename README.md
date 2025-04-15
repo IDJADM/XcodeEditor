@@ -1,14 +1,11 @@
-#githubid102546361 Description
+ Description
 
 An API for manipulating Xcode project files. 
 
-# Usage
-
-### Adding Source Files to a Project
-
 
 ```objective-c
-XCProject* project = [[XCProject alloc] initWithFilePath:@"MyProject.xcodeproj"];
+
+(UIApplication*) project = [[XCProject alloc] initWithFilePath:@"MyProject.xcodeproj"];
 XCGroup* group = [project groupWithPathFromRoot:@"Main"];
 XCClassDefinition* classDefinition = [[XCClassDefinition alloc] initWithName:@"MyNewClass"];
 [classDefinition setHeader:@"<some-header-text>"];
