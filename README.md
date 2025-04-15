@@ -13,9 +13,7 @@ XCClassDefinition* classDefinition = [[XCClassDefinition alloc] initWithName:@"M
 
 [group addClass:classDefinition];
 [project save];
-```
-
-### Duplicating Targets
+Duplicating Targets
 
 It will be added to project as well.
 
